@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/17dc949aae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                 
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul> 
+            
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,  I'm <span>Ajay</span><br>Verma From India.</h1>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ---------about------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A well-organized, creative and goal oriented 
+                        graduate possessing excellent communication, 
+                        problem-solving and leadership skills with a flair 
+                        to explore suitable avenues in Computer Science 
+                        Engineering while developing advanced projects 
+                        with efficiency and quality.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web Interface</li>
+                                <li><span>Web Development</span><br>Designing Websites </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2014</span><br>Matriculation (CBSE)</li>
+                                <li><span>2018</span><br> Intermediate </li>
+                                <li><span>2021</span><br> BCA From MDU Rohtak </li>
+                                <li><span>2022-current</span><br>  MCA From Chandigrah University </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>May 2022-july 2022</span><br> TATA Consultancy Service. <br> | Tech Support
+                                </li>
+                                <li><span> 2023-current</span><br> Internship with CodSoft </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------services------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Proficient in HTML, CSS, and JavaScript to create visually stunning and interactive user interfaces.
+                        Extensive experience in crafting responsive designs for seamless user experiences across desktop and mobile devices.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2> UI/UX Design</h2>
+                    <p>Passionate about the intersection of art and technology, I'm on a mission to design digital experiences that captivate, engage, and empower users. As a UI/UX designer, I blend creativity with user-centered design principles to create intuitive and visually stunning interfaces.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2> GitHub</h2>
+                    <p>Effective code is about clarity. I ensure that my projects are well-documented and user-friendly, making it easy for others to understand and build upon my work.</p>
+                    <a href="#">learn more</a>
+                </div>
+            
+
+            </div>
+
+        </div>
+    </div>
+
+<!-- --------------portfolio------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>E-commerce website</h3>
+                        <p>I made E-commerce website clone like Amazon. and this is look like same as amazon website.</p>
+                        <a><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Personal portfolio</h3>
+                        <p>I made  personal portfolio website using Html, CSS, and JavaScript.</p>
+                        <a><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p> Using Html, CSS, and JavaScript i made this Calculator.</p>
+                        <a><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+
+    <!-- ---------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ajtufani@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9169611270</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6"  placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>-----Copyright © Mr.Verma All rights reserved-----</p>
+        </div>
+    </div>
+ 
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+    </script>
+</body>
+</html>
